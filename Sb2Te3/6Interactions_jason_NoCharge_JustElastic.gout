@@ -1,0 +1,2636 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                      Nanochemistry Research Institute                        *
+*             Curtin University of Technology, Western Australia               *
+********************************************************************************
+* Version = 3.4.7 * Last modified =  21st July 2009                            *
+********************************************************************************
+*  fit          - perform fitting run                                          *
+*  optimise     - perform optimisation run after fitting                       *
+*  property     - calculate properties for final geometry                      *
+*  fbfgs        - use full numerical Hessian in BFGS for fitting               *
+********************************************************************************
+
+  Job Started  at 12:13.37 21st June       2010                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =  13
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.303943    0.000000    9.608266
+        1.151972   -1.995273    9.608266
+        1.151972    1.995273    9.608266
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =       9.8806    alpha =  23.3006
+  b =       9.8806    beta  =  23.3006
+  c =       9.8806    gamma =  23.3006
+
+  Initial cell volume =         132.507502 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   2                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.354029    0.000000    9.817141
+        1.177015   -2.038649    9.817141
+        1.177015    2.038649    9.817141
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.0954    alpha =  23.3006
+  b =      10.0954    beta  =  23.3006
+  c =      10.0954    gamma =  23.3006
+
+  Initial cell volume =         141.338521 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   3                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.404115    0.000000   10.026016
+        1.202057   -2.082024   10.026016
+        1.202057    2.082024   10.026016
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.3102    alpha =  23.3006
+  b =      10.3102    beta  =  23.3006
+  c =      10.3102    gamma =  23.3006
+
+  Initial cell volume =         150.553440 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   4                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.454200    0.000000   10.234892
+        1.227100   -2.125400   10.234892
+        1.227100    2.125400   10.234892
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.5250    alpha =  23.3006
+  b =      10.5250    beta  =  23.3006
+  c =      10.5250    gamma =  23.3006
+
+  Initial cell volume =         160.160424 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   5                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.504286    0.000000   10.443767
+        1.252143   -2.168775   10.443767
+        1.252143    2.168775   10.443767
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.7398    alpha =  23.3006
+  b =      10.7398    beta  =  23.3006
+  c =      10.7398    gamma =  23.3006
+
+  Initial cell volume =         170.167643 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   6                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.554372    0.000000   10.652642
+        1.277186   -2.212151   10.652642
+        1.277186    2.212151   10.652642
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.9546    alpha =  23.3006
+  b =      10.9546    beta  =  23.3006
+  c =      10.9546    gamma =  23.3006
+
+  Initial cell volume =         180.583264 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   7                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.604458    0.000000   10.861518
+        1.302229   -2.255526   10.861518
+        1.302229    2.255526   10.861518
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      11.1694    alpha =  23.3006
+  b =      11.1694    beta  =  23.3006
+  c =      11.1694    gamma =  23.3006
+
+  Initial cell volume =         191.415455 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   8                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.654543    0.000000   11.070393
+        1.327272   -2.298902   11.070393
+        1.327272    2.298902   11.070393
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      11.3842    alpha =  23.3006
+  b =      11.3842    beta  =  23.3006
+  c =      11.3842    gamma =  23.3006
+
+  Initial cell volume =         202.672385 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =   9                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.704629    0.000000   11.279268
+        1.352315   -2.342278   11.279268
+        1.352315    2.342278   11.279268
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      11.5990    alpha =  23.3006
+  b =      11.5990    beta  =  23.3006
+  c =      11.5990    gamma =  23.3006
+
+  Initial cell volume =         214.362222 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =  10                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.754715    0.000000   11.488144
+        1.377357   -2.385653   11.488144
+        1.377357    2.385653   11.488144
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      11.8138    alpha =  23.3006
+  b =      11.8138    beta  =  23.3006
+  c =      11.8138    gamma =  23.3006
+
+  Initial cell volume =         226.493133 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =  11                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       -2.804801    0.000000   11.697019
+        1.402400   -2.429029   11.697019
+        1.402400    2.429029   11.697019
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      12.0286    alpha =  23.3006
+  b =      12.0286    beta  =  23.3006
+  c =      12.0286    gamma =  23.3006
+
+  Initial cell volume =         239.073286 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =  12                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       10.739800    0.000000    0.000000
+        9.863930    4.248080    0.000000
+        9.863930    2.033746    3.729619
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.7398    alpha =  23.3000
+  b =      10.7398    beta  =  23.3000
+  c =      10.7398    gamma =  23.3000
+
+  Initial cell volume =         170.158355 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  Input for Configuration =  13                                               *
+********************************************************************************
+
+  Formula = Sb2Te3                                                      
+
+  Number of irreducible atoms/shells =       5
+
+
+  Total number atoms/shells =       5
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+       10.739800    0.000000    0.000000
+        9.863930    4.248080    0.000000
+        9.863930    2.033746    3.729619
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =      10.7398    alpha =  23.3000
+  b =      10.7398    beta  =  23.3000
+  c =      10.7398    gamma =  23.3000
+
+  Initial cell volume =         170.158355 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Sb    c    0.396797    0.396797    0.396797      0.0000    1.000000    
+      2 Sb    c    0.603203    0.603203    0.603203      0.0000    1.000000    
+      3 Te1   c    0.000000    0.000000    0.000000     -0.0000    1.000000    
+      4 Te2   c    0.784571    0.784571    0.784571     -0.0000    1.000000    
+      5 Te2   c    0.215429    0.215429    0.215429     -0.0000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Sb       Core       51     121.75     0.0000   1.460  0.000  2.170          
+    Te1      Core       52     127.60    -0.0000   1.470  0.000  2.200          
+    Te2      Core       52     127.60    -0.0000   1.470  0.000  2.200          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald
+  Accuracy factor for lattice sums       =    8.000
+
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =         8.000000 Angstroms
+
+  Taper potentials to zero over   8.0000 Angstroms using Voter m =  20.0000
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential         A         B         C         D     Cutoffs(Ang)
+  1     2                                                            Min    Max 
+--------------------------------------------------------------------------------
+Sb   c Te2  c Morse         0.110      4.32     3.02     0.00       0.000 12.000
+Sb   c Te1  c Morse         0.720E-01  1.64     3.30     0.00       0.000 12.000
+Sb   c Sb   c Morse         0.720E-01 0.940     4.29     0.00       0.000 12.000
+Te1  c Te1  c Morse         0.650E-01  1.05     4.36     0.00       0.000 12.000
+Te1  c Te2  c Morse         0.580E-01  1.01     4.34     0.00       0.000 12.000
+Te2  c Te2  c Morse         0.680E-01  2.75     3.90     0.00       0.000 12.000
+Te2  c Te2  c Morse         0.550E-01  1.12     4.30     0.00       0.000 12.000
+--------------------------------------------------------------------------------
+
+  Energy shifts for configurations :
+
+--------------------------------------------------------------------------------
+      Configuration           Energy (eV)        Scale Factor
+--------------------------------------------------------------------------------
+             1               -12.0000                 1.000
+             2               -12.0000                 1.000
+             3               -12.0000                 1.000
+             4               -12.0000                 1.000
+             5               -12.0000                 1.000
+             6               -12.0000                 1.000
+             7               -12.0000                 1.000
+             8               -12.0000                 1.000
+             9               -12.0000                 1.000
+            10               -12.0000                 1.000
+            11               -12.0000                 1.000
+            12               -12.0000                 1.000
+            13               -12.0000                 1.000
+--------------------------------------------------------------------------------
+
+
+
+  Number of variables   =   15
+  Number of observables =   26
+
+--------------------------------------------------------------------------------
+   Observable no.  Type           Observable    Weight       Reference  Confign 
+--------------------------------------------------------------------------------
+          1        Energy          -16.420000        0.2000                1
+          2        Energy          -17.330000        0.2000                2
+          3        Energy          -17.910000        0.2000                3
+          4        Energy          -18.230000        0.5000                4
+          5        Energy          -18.320000        0.5000                5
+          6        Energy          -18.240000        0.5000                6
+          7        Energy          -18.010000        0.2000                7
+          8        Energy          -17.660000        0.2000                8
+          9        Energy          -17.230000        0.2000                9
+         10        Energy          -16.720000        0.2000               10
+         11        Energy          -16.160000        0.2000               11
+         12        Energy          -18.310000        0.1000               12
+         13        Elastic Const    64.998000        0.1000    1  1       12
+         14        Elastic Const    64.998000        0.1000    2  2       12
+         15        Elastic Const    15.380460        0.2000    1  2       12
+         16        Elastic Const    11.748970        0.2000    1  3       12
+         17        Elastic Const    15.900000        0.2000    3  3       12
+         18        Elastic Const    24.808830        0.2000    4  4       12
+         19        Elastic Const    11.801930        0.2000    5  5       12
+         20        Elastic Const    11.801930        0.2000    6  6       12
+         21        Derivative        0.000000        1.0000    a          13
+         22        Derivative        0.000000        1.0000    b          13
+         23        Derivative        0.000000        1.0000    c          13
+         24        Derivative        0.000000        1.0000    alpha      13
+         25        Derivative        0.000000        1.0000    beta       13
+         26        Derivative        0.000000        1.0000    gamma      13
+--------------------------------------------------------------------------------
+
+  Variables :
+
+--------------------------------------------------------------------------------
+     Parameter No.       Parameter Value          Parameter Type  Species
+--------------------------------------------------------------------------------
+             1                -12.000000          Energy shift        0
+             2                  0.110000          Morse  De      
+             3                  4.320000          Morse  a0      
+             4                  0.072000          Morse  De      
+             5                  1.640000          Morse  a0      
+             6                  0.072000          Morse  De      
+             7                  0.940000          Morse  a0      
+             8                  0.065000          Morse  De      
+             9                  1.050000          Morse  a0      
+            10                  0.058000          Morse  De      
+            11                  1.010000          Morse  a0      
+            12                  0.068000          Morse  De      
+            13                  2.750000          Morse  a0      
+            14                  0.055000          Morse  De      
+            15                  1.120000          Morse  a0      
+--------------------------------------------------------------------------------
+
+  Symmetry not used for fitting
+  First derivatives of residuals to be used in fitting
+
+  Maximum no. of cycles   =       5000
+  Maximum step size       =  1000.0000
+  Tolerance on parameters =  0.0000100
+  Tolerance on function   =  0.0000100
+  Tolerance on gradient   =  0.0001000
+  Differencing interval   =  0.0001000
+
+  Dumpfile to be written after every cycle
+
+  Start of fitting :
+
+  Cycle:      0  Sum sqs:     340.506632  Gnorm:    452.241761  CPU:   10.557
+  ** Hessian calculated **
+  Cycle:      1  Sum sqs:     332.732290  Gnorm:    448.423797  CPU:   10.997
+  Cycle:      2  Sum sqs:     302.890791  Gnorm:    220.743423  CPU:   11.393
+  Cycle:      3  Sum sqs:     287.771289  Gnorm:     98.057588  CPU:   11.793
+  Cycle:      4  Sum sqs:     285.486468  Gnorm:    139.802820  CPU:   12.193
+  Cycle:      5  Sum sqs:     283.991417  Gnorm:    105.459993  CPU:   12.577
+  Cycle:      6  Sum sqs:     282.873966  Gnorm:     67.458933  CPU:   12.965
+  Cycle:      7  Sum sqs:     282.872221  Gnorm:     67.404456  CPU:   13.361
+  Cycle:      8  Sum sqs:     282.660530  Gnorm:     72.768417  CPU:   13.761
+  Cycle:      9  Sum sqs:     282.559742  Gnorm:     70.213963  CPU:   14.149
+  Cycle:     10  Sum sqs:     282.389742  Gnorm:     66.556258  CPU:   14.533
+  Cycle:     11  Sum sqs:     282.343952  Gnorm:     65.366197  CPU:   14.921
+  Cycle:     12  Sum sqs:     282.011424  Gnorm:     75.232646  CPU:   15.309
+  Cycle:     13  Sum sqs:     281.891296  Gnorm:     71.873667  CPU:   15.693
+  Cycle:     14  Sum sqs:     281.633637  Gnorm:     64.441344  CPU:   16.081
+  Cycle:     15  Sum sqs:     281.562776  Gnorm:     62.453390  CPU:   16.469
+  Cycle:     16  Sum sqs:     279.799659  Gnorm:     96.412296  CPU:   16.857
+  Cycle:     17  Sum sqs:     279.394718  Gnorm:     77.328751  CPU:   17.241
+  Cycle:     18  Sum sqs:     278.677751  Gnorm:     52.765123  CPU:   17.629
+  Cycle:     19  Sum sqs:     278.625560  Gnorm:     50.305888  CPU:   18.017
+  Cycle:     20  Sum sqs:     278.493013  Gnorm:     53.085839  CPU:   18.401
+  ** Hessian calculated **
+  Cycle:     21  Sum sqs:     269.839476  Gnorm:    116.533965  CPU:   29.338
+  Cycle:     22  Sum sqs:     267.523620  Gnorm:    151.171081  CPU:   29.726
+  Cycle:     23  Sum sqs:     262.022946  Gnorm:     66.444737  CPU:   30.126
+  Cycle:     24  Sum sqs:     261.507118  Gnorm:     70.078687  CPU:   30.522
+  Cycle:     25  Sum sqs:     261.198497  Gnorm:     59.436255  CPU:   30.906
+  Cycle:     26  Sum sqs:     260.856180  Gnorm:     58.139633  CPU:   31.302
+  Cycle:     27  Sum sqs:     260.846039  Gnorm:     57.402364  CPU:   31.690
+  Cycle:     28  Sum sqs:     260.721550  Gnorm:     56.752063  CPU:   32.078
+  Cycle:     29  Sum sqs:     260.721416  Gnorm:     56.745748  CPU:   32.462
+  Cycle:     30  Sum sqs:     260.693466  Gnorm:     56.078272  CPU:   32.850
+  Cycle:     31  Sum sqs:     260.693259  Gnorm:     56.064692  CPU:   33.238
+  Cycle:     32  Sum sqs:     260.559506  Gnorm:     58.995259  CPU:   33.622
+  Cycle:     33  Sum sqs:     260.559506  Gnorm:     58.995375  CPU:   34.022
+  Cycle:     34  Sum sqs:     260.559483  Gnorm:     58.995125  CPU:   34.398
+
+
+  **** Fit completed successfully ****
+
+
+  Final sum of squares =           260.559483
+
+  Final gradient norm  =            58.995125
+
+  Final values of parameters :
+
+--------------------------------------------------------------------------------
+ Parameter No.    Parameter        Parameter      Parameter Type  Species
+                  Original         Final                                 
+--------------------------------------------------------------------------------
+         1            -12.000000       -15.099847 Energy shift        0
+         2              0.110000         0.090238 Morse  De      
+         3              4.320000         4.350884 Morse  a0      
+         4              0.072000         0.036324 Morse  De      
+         5              1.640000         2.195889 Morse  a0      
+         6              0.072000         0.101007 Morse  De      
+         7              0.940000         1.385537 Morse  a0      
+         8              0.065000         0.039992 Morse  De      
+         9              1.050000         0.744048 Morse  a0      
+        10              0.058000         0.075310 Morse  De      
+        11              1.010000         1.363249 Morse  a0      
+        12              0.068000         0.026105 Morse  De      
+        13              2.750000         3.438146 Morse  a0      
+        14              0.055000         0.081016 Morse  De      
+        15              1.120000         1.153728 Morse  a0      
+--------------------------------------------------------------------------------
+
+
+  Final values of numerical parameter gradients :
+
+--------------------------------------------------------------------------------
+     Parameter No.       Parameter Gradient      Parameter Type  Species
+--------------------------------------------------------------------------------
+             1                  0.628175          Energy shift        0
+             2                 -2.358359          Morse  De      
+             3                 -3.337949          Morse  a0      
+             4                 11.154386          Morse  De      
+             5                 12.957144          Morse  a0      
+             6                  3.655259          Morse  De      
+             7                 20.468076          Morse  a0      
+             8                  1.130634          Morse  De      
+             9                  1.854930          Morse  a0      
+            10                -24.146432          Morse  De      
+            11                -34.978756          Morse  a0      
+            12                 -8.848471          Morse  De      
+            13                 -7.017354          Morse  a0      
+            14                  0.339147          Morse  De      
+            15                -28.280365          Morse  a0      
+--------------------------------------------------------------------------------
+
+
+  Final values of residuals :
+
+--------------------------------------------------------------------------------
+   Observable no.  Type            Observable   Calculated    Residual  Error(%)
+--------------------------------------------------------------------------------
+          1        Energy           -16.42000    -15.93364      0.04731    2.962
+          2        Energy           -17.33000    -17.31546      0.00004    0.084
+          3        Energy           -17.91000    -17.96043      0.00051   -0.282
+          4        Energy           -18.23000    -18.18820      0.00087    0.229
+          5        Energy           -18.32000    -18.18580      0.00900    0.733
+          6        Energy           -18.24000    -18.06150      0.01593    0.979
+          7        Energy           -18.01000    -17.87803      0.00348    0.733
+          8        Energy           -17.66000    -17.67056      0.00002   -0.060
+          9        Energy           -17.23000    -17.45818      0.01041   -1.324
+         10        Energy           -16.72000    -17.25035      0.05626   -3.172
+         11        Energy           -16.16000    -17.05251      0.15931   -5.523
+         12        Energy           -18.31000    -18.18588      0.00154    0.678
+         13        Elastic Const     64.99800     39.50902     64.96880  -39.215
+         14        Elastic Const     64.99800     38.26185     71.48218  -41.134
+         15        Elastic Const     15.38046     17.24365      0.69429   12.114
+         16        Elastic Const     11.74897     22.23442     21.98892   89.246
+         17        Elastic Const     15.90000     33.03046     58.69052  107.739
+         18        Elastic Const     24.80883     15.13439     18.71898  -38.996
+         19        Elastic Const     11.80193     20.67603     15.74992   75.192
+         20        Elastic Const     11.80193     15.63980      2.94584   32.519
+         21        Derivative         0.00000      0.99293      0.98592
+         22        Derivative         0.00000      1.41142      1.99211
+         23        Derivative         0.00000      1.42345      2.02621
+         24        Derivative         0.00000     -0.01103      0.00012
+         25        Derivative         0.00000     -0.05350      0.00286
+         26        Derivative         0.00000     -0.09011      0.00812
+--------------------------------------------------------------------------------
+
+  Comparison of initial and final observables :
+
+--------------------------------------------------------------------------------
+   Observable no.  Type            Observable   Initial       Final             
+--------------------------------------------------------------------------------
+          1        Energy           -16.42000    -13.00040    -15.93364
+          2        Energy           -17.33000    -14.42367    -17.31546
+          3        Energy           -17.91000    -15.06386    -17.96043
+          4        Energy           -18.23000    -15.26825    -18.18820
+          5        Energy           -18.32000    -15.23916    -18.18580
+          6        Energy           -18.24000    -15.09194    -18.06150
+          7        Energy           -18.01000    -14.89217    -17.87803
+          8        Energy           -17.66000    -14.67483    -17.67056
+          9        Energy           -17.23000    -14.45742    -17.45818
+         10        Energy           -16.72000    -14.24777    -17.25035
+         11        Energy           -16.16000    -14.05040    -17.05251
+         12        Energy           -18.31000    -15.23927    -18.18588
+         13        Elastic Const     64.99800     34.26120     39.50902
+         14        Elastic Const     64.99800     27.84868     38.26185
+         15        Elastic Const     15.38046     15.52160     17.24365
+         16        Elastic Const     11.74897     20.97476     22.23442
+         17        Elastic Const     15.90000     21.93309     33.03046
+         18        Elastic Const     24.80883     11.99563     15.13439
+         19        Elastic Const     11.80193     19.64325     20.67603
+         20        Elastic Const     11.80193     14.13186     15.63980
+         21        Derivative         0.00000      1.01210      0.99293
+         22        Derivative         0.00000      2.02919      1.41142
+         23        Derivative         0.00000      2.05843      1.42345
+         24        Derivative         0.00000     -0.02681     -0.01103
+         25        Derivative         0.00000     -0.13003     -0.05350
+         26        Derivative         0.00000     -0.21901     -0.09011
+--------------------------------------------------------------------------------
+
+  Maximum range for interatomic potentials =         8.000000 Angstroms
+
+  Taper potentials to zero over   8.0000 Angstroms using Voter m =  20.0000
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential         A         B         C         D     Cutoffs(Ang)
+  1     2                                                            Min    Max 
+--------------------------------------------------------------------------------
+Sb   c Te2  c Morse         0.902E-01  4.35     3.02     0.00       0.000 12.000
+Sb   c Te1  c Morse         0.363E-01  2.20     3.30     0.00       0.000 12.000
+Sb   c Sb   c Morse         0.101      1.39     4.29     0.00       0.000 12.000
+Te1  c Te1  c Morse         0.400E-01 0.744     4.36     0.00       0.000 12.000
+Te1  c Te2  c Morse         0.753E-01  1.36     4.34     0.00       0.000 12.000
+Te2  c Te2  c Morse         0.261E-01  3.44     3.90     0.00       0.000 12.000
+Te2  c Te2  c Morse         0.810E-01  1.15     4.30     0.00       0.000 12.000
+--------------------------------------------------------------------------------
+
+  Energy shifts for configurations :
+
+--------------------------------------------------------------------------------
+      Configuration           Energy (eV)        Scale Factor
+--------------------------------------------------------------------------------
+             1               -15.0998                 1.000
+             2               -15.0998                 1.000
+             3               -15.0998                 1.000
+             4               -15.0998                 1.000
+             5               -15.0998                 1.000
+             6               -15.0998                 1.000
+             7               -15.0998                 1.000
+             8               -15.0998                 1.000
+             9               -15.0998                 1.000
+            10               -15.0998                 1.000
+            11               -15.0998                 1.000
+            12               -15.0998                 1.000
+            13               -15.0998                 1.000
+--------------------------------------------------------------------------------
+
+
+
+
+  Total time to end of fitting =      34.4141 seconds
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -0.83379711 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -15.93364414 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1537.3531 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    107.5878   72.3077  166.8313    0.0000   59.1248    0.0000
+       2     72.3077  107.5878  166.8313   -0.0000  -59.1248   -0.0000
+       3    166.8313  166.8313  230.3466    0.0000    0.0000    0.0000
+       4      0.0000   -0.0000    0.0000  103.4439    0.0000  -59.1248
+       5     59.1248  -59.1248    0.0000    0.0000  103.4439   -0.0000
+       6      0.0000   -0.0000    0.0000  -59.1248   -0.0000   17.6401
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1   -0.023572  0.007381  0.011726  0.000000  0.017692  0.000000
+       2    0.007381 -0.023572  0.011726  0.000000 -0.017692  0.000000
+       3    0.011726  0.011726 -0.012645 -0.000000  0.000000 -0.000000
+       4    0.000000  0.000000 -0.000000 -0.010557  0.000000 -0.035383
+       5    0.017692 -0.017692  0.000000  0.000000 -0.010557  0.000000
+       6    0.000000  0.000000 -0.000000 -0.035383  0.000000 -0.061906
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =     532.12372     139.71808     335.92090
+  Shear Modulus (GPa)     =     -24.52804      47.54235      11.50716
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =      -5.59027       7.78290       3.82900
+  Velocity P-wave (km/s)  =      25.22516      16.08661      21.15523
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.00187926
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =     -42.42354     -42.42354     -79.08491
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.31313       0.92738
+  Poissons Ratio (y)      =       0.31313                     0.92738
+  Poissons Ratio (z)      =       0.49747       0.49747
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4141 seconds
+
+
+********************************************************************************
+*  Output for configuration   2                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.21561445 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.31546149 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1670.6773 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     93.3450   50.0697  103.3689    0.0000   39.0843   -0.0000
+       2     50.0697   93.3450  103.3689   -0.0000  -39.0843    0.0000
+       3    103.3689  103.3689  150.0285    0.0000   -0.0000   -0.0000
+       4      0.0000   -0.0000    0.0000   69.3692   -0.0000  -39.0843
+       5     39.0843  -39.0843   -0.0000   -0.0000   69.3692    0.0000
+       6     -0.0000    0.0000   -0.0000  -39.0843    0.0000   21.6376
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1   -0.138279  1.165544 -0.707781  0.000000  0.734607  0.000000
+       2    1.165544 -0.138279 -0.707781  0.000000 -0.734607  0.000000
+       3   -0.707781 -0.707781  0.981980 -0.000000 -0.000000 -0.000000
+       4    0.000000  0.000000 -0.000000 -0.813376 -0.000000 -1.469213
+       5    0.734607 -0.734607 -0.000000 -0.000000 -0.813376 -0.000000
+       6    0.000000  0.000000 -0.000000 -1.469213 -0.000000 -2.607646
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =       4.86883      94.48148      49.67516
+  Shear Modulus (GPa)     =      -1.68892      37.40260      17.85684
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =      -1.51501       7.12955       4.92621
+  Velocity P-wave (km/s)  =       1.88586      14.00625       9.99329
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.20538799
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      -7.23176      -7.23177       1.01835
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     8.42894       0.72077
+  Poissons Ratio (y)      =       8.42894                     0.72077
+  Poissons Ratio (z)      =      -5.11850      -5.11850
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4182 seconds
+
+
+********************************************************************************
+*  Output for configuration   3                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.86058475 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.96043179 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1732.9071 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     72.5151   32.9913   62.7435    0.0000   25.4108   -0.0000
+       2     32.9913   72.5151   62.7435    0.0000  -25.4108   -0.0000
+       3     62.7435   62.7435   96.1646    0.0000   -0.0000    0.0000
+       4      0.0000    0.0000    0.0000   45.7966    0.0000  -25.4108
+       5     25.4108  -25.4108   -0.0000    0.0000   45.7966   -0.0000
+       6     -0.0000   -0.0000    0.0000  -25.4108   -0.0000   19.7619
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.065309 -0.022992 -0.027610  0.000000 -0.048995  0.000000
+       2   -0.022992  0.065309 -0.027610  0.000000  0.048995  0.000000
+       3   -0.027610 -0.027610  0.046428 -0.000000  0.000000 -0.000000
+       4    0.000000  0.000000 -0.000000  0.076207 -0.000000  0.097990
+       5   -0.048995  0.048995  0.000000 -0.000000  0.076207 -0.000000
+       6    0.000000  0.000000 -0.000000  0.097990 -0.000000  0.176603
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      48.49357      62.01682      55.25520
+  Shear Modulus (GPa)     =       7.46980      27.78546      17.62763
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.28837       6.34213       5.05153
+  Velocity P-wave (km/s)  =       9.19879      11.97524      10.67764
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.02062129
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      15.31176      15.31176      21.53882
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.35205       0.59469
+  Poissons Ratio (y)      =       0.35205                     0.59469
+  Poissons Ratio (z)      =       0.42276       0.42276
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4182 seconds
+
+
+********************************************************************************
+*  Output for configuration   4                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -3.08835692 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.18820395 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1754.8836 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     53.2234   20.7981   36.8531   -0.0000   16.2081    0.0000
+       2     20.7981   53.2234   36.8531   -0.0000  -16.2081   -0.0000
+       3     36.8531   36.8531   60.1292   -0.0000    0.0000    0.0000
+       4     -0.0000   -0.0000   -0.0000   29.6882   -0.0000  -16.2081
+       5     16.2081  -16.2081    0.0000   -0.0000   29.6882    0.0000
+       6      0.0000   -0.0000    0.0000  -16.2081    0.0000   16.2127
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.051282 -0.016617 -0.021247  0.000000 -0.037069  0.000000
+       2   -0.016617  0.051282 -0.021247  0.000000  0.037069  0.000000
+       3   -0.021247 -0.021247  0.042675 -0.000000 -0.000000 -0.000000
+       4    0.000000  0.000000 -0.000000  0.074159  0.000000  0.074138
+       5   -0.037069  0.037069 -0.000000  0.000000  0.074159 -0.000000
+       6    0.000000  0.000000 -0.000000  0.074138 -0.000000  0.135798
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      37.00965      39.50939      38.25952
+  Shear Modulus (GPa)     =       8.98343      19.92260      14.45301
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.71946       5.53900       4.71778
+  Velocity P-wave (km/s)  =       8.68563      10.08718       9.41253
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.02701998
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      19.49993      19.49993      23.43305
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.32402       0.49787
+  Poissons Ratio (y)      =       0.32402                     0.49787
+  Poissons Ratio (z)      =       0.41431       0.41431
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4222 seconds
+
+
+********************************************************************************
+*  Output for configuration   5                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -3.08595217 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.18579920 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1754.6516 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     37.0954   12.2846   20.8352   -0.0000   10.0767   -0.0000
+       2     12.2846   37.0954   20.8352    0.0000  -10.0767   -0.0000
+       3     20.8352   20.8352   37.7847   -0.0000   -0.0000   -0.0000
+       4     -0.0000    0.0000   -0.0000   19.2103   -0.0000  -10.0767
+       5     10.0767  -10.0767   -0.0000   -0.0000   19.2103    0.0000
+       6     -0.0000   -0.0000   -0.0000  -10.0767    0.0000   12.4054
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.054052 -0.016176 -0.020885  0.000000 -0.036838  0.000000
+       2   -0.016176  0.054052 -0.020885 -0.000000  0.036838  0.000000
+       3   -0.020885 -0.020885  0.049499  0.000000  0.000000 -0.000000
+       4    0.000000 -0.000000  0.000000  0.090702  0.000000  0.073676
+       5   -0.036838  0.036838  0.000000  0.000000  0.090702  0.000000
+       6    0.000000  0.000000 -0.000000  0.073676  0.000000  0.140456
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      23.97574      24.43172      24.20373
+  Shear Modulus (GPa)     =       8.20667      14.03322      11.11995
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.66440       4.79179       4.26551
+  Velocity P-wave (km/s)  =       7.55864       8.40181       7.99135
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.04170883
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      18.50072      18.50072      20.20239
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.29927       0.42194
+  Poissons Ratio (y)      =       0.29927                     0.42194
+  Poissons Ratio (z)      =       0.38640       0.38640
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4222 seconds
+
+
+********************************************************************************
+*  Output for configuration   6                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.96165717 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.06150421 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1742.6591 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     23.8332    6.3221   10.4148   -0.0000    5.9118   -0.0000
+       2      6.3221   23.8332   10.4148   -0.0000   -5.9118   -0.0000
+       3     10.4148   10.4148   21.8100    0.0000   -0.0000   -0.0000
+       4     -0.0000   -0.0000    0.0000   11.8316   -0.0000   -5.9118
+       5      5.9118   -5.9118   -0.0000   -0.0000   11.8316    0.0000
+       6     -0.0000   -0.0000   -0.0000   -5.9118    0.0000    8.7555
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.067834 -0.018350 -0.023630 -0.000000 -0.043063  0.000000
+       2   -0.018350  0.067834 -0.023630  0.000000  0.043063  0.000000
+       3   -0.023630 -0.023630  0.068418 -0.000000  0.000000 -0.000000
+       4   -0.000000  0.000000 -0.000000  0.127553  0.000000  0.086126
+       5   -0.043063  0.043063  0.000000  0.000000  0.127553  0.000000
+       6    0.000000  0.000000 -0.000000  0.086126  0.000000  0.172367
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      13.72369      13.75333      13.73851
+  Shear Modulus (GPa)     =       6.35271       9.30540       7.82905
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.32123       4.01964       3.68701
+  Velocity P-wave (km/s)  =       6.20779       6.73973       6.47922
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.07286669
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      14.74193      14.74193      14.61600
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.27051       0.34537
+  Poissons Ratio (y)      =       0.27051                     0.34537
+  Poissons Ratio (z)      =       0.34835       0.34835
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4222 seconds
+
+
+********************************************************************************
+*  Output for configuration   7                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.77818064 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.87802767 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1724.9564 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     12.7635    2.2626    3.9806    0.0000    2.5823    0.0000
+       2      2.2626   12.7635    3.9806    0.0000   -2.5823    0.0000
+       3      3.9806    3.9806   13.4563    0.0000    0.0000    0.0000
+       4      0.0000    0.0000    0.0000    6.8999    0.0000   -2.5823
+       5      2.5823   -2.5823    0.0000    0.0000    6.8999    0.0000
+       6      0.0000    0.0000    0.0000   -2.5823    0.0000    5.2505
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.097817 -0.018897 -0.023346  0.000000 -0.043681  0.000000
+       2   -0.018897  0.097817 -0.023346 -0.000000  0.043681 -0.000000
+       3   -0.023346 -0.023346  0.088127 -0.000000 -0.000000 -0.000000
+       4    0.000000 -0.000000 -0.000000  0.177627 -0.000000  0.087362
+       5   -0.043681  0.043681 -0.000000 -0.000000  0.177627 -0.000000
+       6    0.000000 -0.000000 -0.000000  0.087362 -0.000000  0.233427
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =       6.55375       6.60340       6.57857
+  Shear Modulus (GPa)     =       4.74168       5.72733       5.23451
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       2.95417       3.24673       3.10390
+  Velocity P-wave (km/s)  =       4.86810       5.11943       4.99535
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.15258433
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      10.22319      10.22319      11.34728
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.19318       0.26491
+  Poissons Ratio (y)      =       0.19318                     0.26491
+  Poissons Ratio (z)      =       0.23867       0.23867
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4262 seconds
+
+
+********************************************************************************
+*  Output for configuration   8                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.57070808 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.67055511 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1704.9384 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     71.2398   94.0458   33.0890    0.0000  -12.3472   -0.0000
+       2     94.0458   71.2398   33.0890    0.0000   12.3472   -0.0000
+       3     33.0890   33.0890   20.2711    0.0000    0.0000   -0.0000
+       4      0.0000    0.0000    0.0000   -7.9420   -0.0000   12.3472
+       5    -12.3472   12.3472    0.0000   -0.0000   -7.9420    0.0000
+       6     -0.0000   -0.0000   -0.0000   12.3472    0.0000  -11.4030
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.040813 -0.023349 -0.028506 -0.000000 -0.099751 -0.000000
+       2   -0.023349  0.040813 -0.028506  0.000000  0.099751  0.000000
+       3   -0.028506 -0.028506  0.142395  0.000000  0.000000  0.000000
+       4   -0.000000  0.000000  0.000000  0.184246 -0.000000  0.199502
+       5   -0.099751  0.099751  0.000000 -0.000000  0.184246  0.000000
+       6   -0.000000  0.000000  0.000000  0.199502  0.000000  0.128325
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      15.79865      53.68869      34.74367
+  Shear Modulus (GPa)     =       5.53919      -5.28894       0.12513
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.28550      -3.21042       0.49380
+  Velocity P-wave (km/s)  =       6.72163       9.53328       8.24814
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.06329655
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      24.50200      24.50200       7.02273
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.57211       0.20019
+  Poissons Ratio (y)      =       0.57211                     0.20019
+  Poissons Ratio (z)      =       0.69846       0.69846
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4262 seconds
+
+
+********************************************************************************
+*  Output for configuration   9                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.35833237 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.45817940 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1684.4474 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1      9.7442   -1.9449   -1.1074    0.0000    3.1159   -0.0000
+       2     -1.9449    9.7442   -1.1074    0.0000   -3.1159   -0.0000
+       3     -1.1074   -1.1074    2.4173    0.0000   -0.0000   -0.0000
+       4      0.0000    0.0000    0.0000    4.9885   -0.0000   -3.1159
+       5      3.1159   -3.1159   -0.0000   -0.0000    4.9885    0.0000
+       6     -0.0000   -0.0000   -0.0000   -3.1159    0.0000    5.8445
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.137826  0.009566  0.067523 -0.000000 -0.080113  0.000000
+       2    0.009566  0.137826  0.067523 -0.000000  0.080113  0.000000
+       3    0.067523  0.067523  0.475547 -0.000000  0.000000  0.000000
+       4   -0.000000 -0.000000 -0.000000  0.300538  0.000000  0.160225
+       5   -0.080113  0.080113  0.000000  0.000000  0.300538  0.000000
+       6    0.000000  0.000000  0.000000  0.160225  0.000000  0.256521
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =       0.96115       1.50958       1.23536
+  Shear Modulus (GPa)     =       3.00052       4.90202       3.95127
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       2.48687       3.17865       2.85380
+  Velocity P-wave (km/s)  =       3.19798       4.07225       3.66130
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    1.04042187
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =       7.25551       7.25551       2.10284
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                    -0.06941      -0.14199
+  Poissons Ratio (y)      =      -0.06941                    -0.14199
+  Poissons Ratio (z)      =      -0.48991      -0.48991
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4262 seconds
+
+
+********************************************************************************
+*  Output for configuration  10                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -2.15050771 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.25035475 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1664.3955 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1      3.7655   -3.6359   -3.8873    0.0000    1.6464    0.0000
+       2     -3.6359    3.7655   -3.8873    0.0000   -1.6464    0.0000
+       3     -3.8873   -3.8873   -2.0083    0.0000    0.0000    0.0000
+       4      0.0000    0.0000    0.0000    3.0914    0.0000   -1.6464
+       5      1.6464   -1.6464    0.0000    0.0000    3.0914   -0.0000
+       6      0.0000    0.0000    0.0000   -1.6464   -0.0000    3.7007
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.121473 -0.055590 -0.127526  0.000000 -0.094300  0.000000
+       2   -0.055590  0.121473 -0.127526  0.000000  0.094300  0.000000
+       3   -0.127526 -0.127526 -0.004250  0.000000  0.000000  0.000000
+       4    0.000000  0.000000  0.000000  0.423927 -0.000000  0.188600
+       5   -0.094300  0.094300  0.000000 -0.000000  0.423927 -0.000000
+       6    0.000000  0.000000  0.000000  0.188600 -0.000000  0.354126
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      -2.61376      -1.92204      -2.26790
+  Shear Modulus (GPa)     =       2.58474       3.10555       2.84515
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       2.37256       2.60063       2.48920
+  Velocity P-wave (km/s)  =       1.34653       2.19815       1.82277
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =   -0.38259007
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =       8.23229       8.23229    -235.29369
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.45764     -30.00613
+  Poissons Ratio (y)      =       0.45764                   -30.00613
+  Poissons Ratio (z)      =       1.04983       1.04983
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4302 seconds
+
+
+********************************************************************************
+*  Output for configuration  11                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -1.95266151 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -17.05250854 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1645.3064 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     -2.3047   -6.9044   -8.5521   -0.0000    0.7512    0.0000
+       2     -6.9044   -2.3047   -8.5521    0.0000   -0.7512    0.0000
+       3     -8.5521   -8.5521   -9.0989    0.0000   -0.0000    0.0000
+       4     -0.0000    0.0000    0.0000    1.6911    0.0000   -0.7512
+       5      0.7512   -0.7512   -0.0000    0.0000    1.6911   -0.0000
+       6      0.0000    0.0000    0.0000   -0.7512   -0.0000    2.2998
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.199962 -0.054342 -0.136869  0.000000 -0.112965  0.000000
+       2   -0.054342  0.199962 -0.136869 -0.000000  0.112965  0.000000
+       3   -0.136869 -0.136869  0.147383  0.000000  0.000000  0.000000
+       4    0.000000 -0.000000  0.000000  0.691704 -0.000000  0.225930
+       5   -0.112965  0.112965  0.000000 -0.000000  0.691704 -0.000000
+       6    0.000000  0.000000  0.000000  0.225930 -0.000000  0.508609
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      -9.18688      -6.85840      -8.02264
+  Shear Modulus (GPa)     =       1.63441       1.82308       1.72874
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       1.93833       2.04715       1.99348
+  Velocity P-wave (km/s)  =       4.01359       3.19030       3.62539
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =   -0.10885091
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =       5.00094       5.00094       6.78502
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.27176       0.92866
+  Poissons Ratio (y)      =       0.27176                     0.92866
+  Poissons Ratio (z)      =       0.68447       0.68447
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4302 seconds
+
+
+********************************************************************************
+*  Output for configuration  12                                                *
+********************************************************************************
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNING : No variables to optimise - single point performed
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -3.08603012 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.18587715 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1754.6591 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     39.5090   17.2436   22.2344   -4.5762   -1.4330   -2.4136
+       2     17.2436   38.2618   15.1115    6.1755    9.1898    2.6822
+       3     22.2344   15.1115   33.0305   -1.3787   -6.6867    1.5338
+       4     -4.5762    6.1755   -1.3787   15.1344    1.1933    8.9877
+       5     -1.4330    9.1898   -6.6867    1.1933   20.6760   -4.6179
+       6     -2.4136    2.6822    1.5338    8.9877   -4.6179   15.6398
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.047834 -0.015412 -0.024195  0.016108  0.002262  0.003809
+       2   -0.015412  0.052771 -0.020748 -0.022092 -0.031284 -0.005936
+       3   -0.024195 -0.020748  0.061796  0.005542  0.026879 -0.001484
+       4    0.016108 -0.022092  0.005542  0.120456 -0.008998 -0.066148
+       5    0.002262 -0.031284  0.026879 -0.008998  0.078669  0.031477
+       6    0.003809 -0.005936 -0.001484 -0.066148  0.031477  0.112998
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      23.98597      24.44226      24.21412
+  Shear Modulus (GPa)     =       8.20841      14.03750      11.12295
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.66469       4.79239       4.26597
+  Velocity P-wave (km/s)  =       7.55979       8.40316       7.99261
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.04169104
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      20.90575      18.94965      16.18229
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.29205       0.39153
+  Poissons Ratio (y)      =       0.32219                     0.33575
+  Poissons Ratio (z)      =       0.50582       0.39317
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of properties =      34.4342 seconds
+
+
+********************************************************************************
+*  Output for configuration  13                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -3.08603012 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.18587715 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1754.6591 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Number of variables =      6
+
+  Maximum number of calculations  =          1000
+  Maximum Hessian update interval =            10
+  Maximum step size               =   1.000000000
+  Maximum parameter tolerance     =   0.000010000
+  Maximum function  tolerance     =   0.000010000
+  Maximum gradient  tolerance     =   0.001000000
+  Maximum gradient  component     =   0.010000000
+
+  Symmetry not applied to optimisation
+
+  Cell parameters to be optimised using strains
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Dumpfile to be written after every cycle
+
+  Start of bulk optimisation :
+
+  Cycle:      0 Energy:       -18.185877  Gnorm:      0.373249  CPU:   34.438
+  ** Hessian calculated **
+  Cycle:      1 Energy:       -18.211985  Gnorm:      0.047501  CPU:   34.442
+  Cycle:      2 Energy:       -18.212279  Gnorm:      0.008358  CPU:   34.446
+
+
+  **** Optimisation achieved ****
+
+
+  Final energy =     -18.21228807 eV
+  Final Gnorm  =       0.00004223
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =          -3.11244104 eV
+  Monopole - monopole (real) =           0.00000000 eV
+  Monopole - monopole (recip)=           0.00000000 eV
+  Monopole - monopole (total)=           0.00000000 eV
+  Energy shift               =         -15.09984703 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -18.21228807 eV
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1757.2074 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Final fractional coordinates of atoms :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y          z          Radius
+        Label       (Frac)      (Frac)     (Frac)       (Angs) 
+--------------------------------------------------------------------------------
+     1  Sb    c     0.396797    0.396797    0.396797    0.000000
+     2  Sb    c     0.603203    0.603203    0.603203    0.000000
+     3  Te1   c     0.000000    0.000000    0.000000    0.000000
+     4  Te2   c     0.784571    0.784571    0.784571    0.000000
+     5  Te2   c     0.215429    0.215429    0.215429    0.000000
+--------------------------------------------------------------------------------
+
+  Final Cartesian lattice vectors (Angstroms) :
+
+       10.804006    0.057221    0.033973
+        9.945534    4.220921    0.033973
+        9.945534    2.050571    3.689511
+
+
+  Final cell parameters and derivatives :
+
+--------------------------------------------------------------------------------
+       a           10.804211 Angstrom     dE/de1(xx)    -0.000211 eV/strain
+       b           10.804211 Angstrom     dE/de2(yy)     0.000080 eV/strain
+       c           10.804211 Angstrom     dE/de3(zz)     0.000088 eV/strain
+       alpha       22.692981 Degrees      dE/de4(yz)    -0.000008 eV/strain
+       beta        22.692981 Degrees      dE/de5(xz)    -0.000037 eV/strain
+       gamma       22.692981 Degrees      dE/de6(xy)    -0.000063 eV/strain
+--------------------------------------------------------------------------------
+
+  Primitive cell volume =           164.685912 Angs**3
+
+  Density of cell =      6.315125 g/cm**3
+
+  Non-primitive cell volume =           164.685912 Angs**3
+
+
+  Final internal derivatives :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          x             y             z           Radius
+        Label          (eV)          (eV)          (eV)        (eV/Angs)
+--------------------------------------------------------------------------------
+      1 Sb    c       0.000000      0.000000      0.000000      0.000000
+      2 Sb    c       0.000000      0.000000      0.000000      0.000000
+      3 Te1   c       0.000000      0.000000      0.000000      0.000000
+      4 Te2   c       0.000000      0.000000      0.000000      0.000000
+      5 Te2   c       0.000000      0.000000      0.000000      0.000000
+--------------------------------------------------------------------------------
+  Maximum abs         0.000000      0.000000      0.000000      0.000000
+--------------------------------------------------------------------------------
+
+
+
+  Elastic Constant Matrix: (Units=GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1     48.1283   22.0441   27.9297   -5.3967   -1.5571   -2.6226
+       2     22.0441   47.1557   19.9287    7.3265   10.9165    2.8320
+       3     27.9297   19.9287   41.0121   -1.6932   -8.2122    1.7229
+       4     -5.3967    7.3265   -1.6932   17.8888    1.2944   10.6621
+       5     -1.5571   10.9165   -8.2122    1.2944   23.9000   -5.4492
+       6     -2.6226    2.8320    1.7229   10.6621   -5.4492   17.9571
+-------------------------------------------------------------------------------
+
+
+  Elastic Compliance Matrix: (Units=1/GPa)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       1    0.040216 -0.012680 -0.020510  0.014359  0.000952  0.001604
+       2   -0.012680  0.045230 -0.019615 -0.019937 -0.028004 -0.003763
+       3   -0.020510 -0.019615  0.053230  0.005266  0.025540 -0.000385
+       4    0.014359 -0.019937  0.005266  0.105216 -0.007532 -0.060022
+       5    0.000952 -0.028004  0.025540 -0.007532  0.070237  0.027891
+       6    0.001604 -0.003763 -0.000385 -0.060022  0.027891  0.100655
+-------------------------------------------------------------------------------
+
+ Mechanical properties :
+
+-------------------------------------------------------------------------------
+  Convention :                    Reuss         Voigt         Hill
+-------------------------------------------------------------------------------
+  Bulk  Modulus (GPa)     =      30.24325      30.67791      30.46058
+  Shear Modulus (GPa)     =       9.40881      16.37542      12.89211
+-------------------------------------------------------------------------------
+  Velocity S-wave (km/s)  =       3.85990       5.09220       4.51826
+  Velocity P-wave (km/s)  =       8.23136       9.11879       8.68642
+-------------------------------------------------------------------------------
+  Compressibility (1/GPa) =    0.03306523
+-------------------------------------------------------------------------------
+  Stress axis :                     x             y             z
+-------------------------------------------------------------------------------
+  Youngs Moduli (GPa)     =      24.86551      22.10916      18.78637
+-------------------------------------------------------------------------------
+  Poissons Ratio (x)      =                     0.28035       0.38531
+  Poissons Ratio (y)      =       0.31530                     0.36850
+  Poissons Ratio (z)      =       0.51000       0.43368
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Strain Matrix: (Units=C/m**2)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       y    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+       z    -0.00000  -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+-------------------------------------------------------------------------------
+
+
+  Piezoelectric Stress Matrix: (Units=10**-11 C/N)
+
+-------------------------------------------------------------------------------
+  Indices      1         2         3         4         5         6    
+-------------------------------------------------------------------------------
+       x     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       y     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+       z     0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+-------------------------------------------------------------------------------
+
+
+  Static dielectric constant tensor : 
+
+-------------------------------------------------------------------------------
+              x         y         z
+-------------------------------------------------------------------------------
+       x     1.00000   0.00000   0.00000
+       y     0.00000   1.00000   0.00000
+       z     0.00000   0.00000   1.00000
+--------------------------------------------------------------------------------
+
+  Static refractive indices : 
+
+-------------------------------------------------------------------------------
+    1 =    1.00000      2 =    1.00000      3 =    1.00000
+-------------------------------------------------------------------------------
+
+
+  Time to end of optimisation =      34.4542 seconds
+
+
+  Peak dynamic memory used =       0.56 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of real space energy and derivatives               32.8100
+  Sum of squares for fitting                                      0.9961
+  Global summation overhead                                       0.0240
+--------------------------------------------------------------------------------
+  Total CPU time                                                 34.4542
+--------------------------------------------------------------------------------
+
+
+  Dump file written as sb2te3.res                                              
+
+
+
+  **** GULP has completed with  12 warnings - beware! ****
+
+  Job Finished at 12:14.11 21st June       2010                               
+
